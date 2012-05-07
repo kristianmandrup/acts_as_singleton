@@ -1,6 +1,6 @@
 $: << File.expand_path('../lib', __FILE__)
 require 'active_record'
-require 'acts_as_singleton'
+require 'singleton_act'
 
 require 'rake'
 require 'rake/testtask'
